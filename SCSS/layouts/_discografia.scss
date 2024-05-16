@@ -1,0 +1,65 @@
+main{
+    background-color: $main-color;
+    padding: 5px;
+    position: relative;
+    bottom: 0;
+    .titulos2{
+        margin: 10px;
+        display: flex;
+        font-size: 1.5rem;
+        flex-wrap: wrap;
+        color: $text-color;
+    }
+    
+    .disco1{
+        @include img( 200px, 200px, flex, row, wrap, 20px)
+    }
+    .disco1:hover{
+        height: 220px;
+        width: 220px;
+        transition: 0.5s;
+    }
+    .disco2{
+        @include img( 200px, 200px, flex, row, wrap, 20px)
+    }
+    .disco2:hover{
+        height: 220px;
+        width: 220px;
+        transition: 0.5s;
+    }
+    .disco3{
+        @include img( 200px, 200px, flex, row, wrap, 20px)
+    }
+    .disco3:hover{
+        height: 220px;
+        width: 220px;
+        transition: 0.5s;
+    }
+    .disco1-1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    .disco2-1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    .disco3-1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    main h1 {
+        color: $text-color;
+    }
+    h2{
+        color: $text-color;
+    }
+}
+.musica1 article div h2{
+    font-size: 1.5rem;
+}

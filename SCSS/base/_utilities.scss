@@ -1,0 +1,8 @@
+@mixin img($width, $height, $display, $flex-direction, $wrap, $margin) {
+    width: $width;
+    height: $height;
+    display: $display;
+    flex-direction: $flex-direction;
+    flex-wrap: $wrap;
+    margin: $margin;
+}
